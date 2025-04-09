@@ -1,0 +1,63 @@
+$primary-color: #fdcf05;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+nav {
+    background: rgb(255,236,210);
+    background: linear-gradient(169deg, rgba(255,236,210,1) 11%, rgba(210,183,172,1) 38%, rgba(235,131,98,1) 78%);
+}
+
+body {
+    background-color: #ece1cf;
+}
+
+img {
+    max-width: 50%;  
+    height: 50%;
+    object-fit: cover;
+    margin: auto; 
+}
+
+footer {
+    height: 60px;  
+    padding: 10px 0;  
+    text-align: center; 
+    background: rgb(236,225,207);
+    background: linear-gradient(180deg, rgba(236,225,207,1) 12%, rgba(216,205,186,1) 22%, rgba(198,187,168,1) 35%, rgba(178,166,147,1) 46%, rgba(166,154,135,1) 55%, rgba(153,142,125,1) 73%, rgba(101,94,83,1) 94%); 
+}
+
+.card {
+    background-color: #E7E8E2;
+}
+
+.card-img-bottom {
+    height: auto;
+    width: 25rem;
+    border-radius: 15px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h3 {
+    padding: 14px;
+}
+
+section p {
+    margin-bottom: 15px; /* separa los párrafos */
+    line-height: 1.6; /* mejora la lectura */
+    text-align: center;
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ba9b11;
+    padding-left: 14px;
+    padding-right: 14px;
+}
